@@ -1,0 +1,135 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    height: 85px;
+    border-bottom: 2px solid #b1191a;
+}
+header img {
+    padding-top: 15px;
+}
+.registerarea {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.registerarea h3 {
+    height: 41px;
+    border-bottom: 1px solid #ccc;
+    padding: 0px 10px;
+    background-color: #ececec;
+    line-height: 41px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.login {
+    float: right;
+    font-size: 14px;
+}
+.login a {
+    color: #b1191a;
+}
+.registerarea .reg_form {
+    width: 600px;
+    height: 300px;
+    margin: 50px auto 0;
+}
+.registerarea .reg_form  ul li {
+    margin-bottom: 20px;
+}
+.registerarea .reg_form  ul li:nth-child(3) {
+    margin-bottom: 0px;
+}
+.registerarea .reg_form  ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.registerarea .reg_form  ul li .inp {
+    width: 242px;
+    height: 37px;
+    border:1px solid #ccc;
+    margin: 0px 10px;
+    padding: 0px 10px;
+    outline: none;
+}
+.error,.success {
+    color: #df3033;
+    font-size: 12px;
+}
+.error .error_icon,.success .success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/矩形8.png) no-repeat;
+    vertical-align: middle;
+}
+.success {
+     color: green;
+}
+.safe {
+    font-size: 12px;
+    width: 340px;
+    text-align: right;
+    margin-top: 10px;
+}
+.safe em {
+    padding: 0px 12px;
+    color:#fff;
+}
+.ruo {
+    background-color: #de1111;
+}
+.zhong {
+    background-color: #40b83f;
+}
+.qiang {
+    background-color: #f79100;
+}
+.agree {
+    font-size: 12px;
+    margin-left: 98px;
+    margin-top: 40px;
+}
+.agree input {
+    vertical-align: middle;
+}
+.agree i {
+    color: #1ba1e6;
+}
+.reg_form button {
+    margin-top: 40px;
+    width: 200px;
+    height: 35px;
+    border:none;
+    margin-left: 110px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+}
+.mod_copyright {
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: center;
+}
+.mod_copyright .link {
+    height: 30px;
+}
+.mod_copyright .link ul {
+    position: absolute;
+    left: 50%;
+    margin-left: -413px;
+    width: 827px;
+}
+.mod_copyright .link ul li {
+    float: left;
+}
+.mod_copyright .link ul li:nth-child(2n) {
+    height: 12px;
+    border-left: 1px solid #999;
+    margin:3px 8px 0px;
+}
+.mod_copyright .copyright {
+    line-height: 25px;
+}
